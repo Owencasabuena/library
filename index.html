@@ -39,6 +39,13 @@
                 <label for="author">Author</label>
                 <input type="text" name="author" id="author" required minlength="2" maxlength="100">
             </div>
+            <div class="read-toggle">
+                <span class="toggle-label">Have you read it?</span>
+                <div class="toggle-button">
+                    <input type="checkbox" name="read" id="read" class="toggle-read-status">
+                    <label for="read" class="toggle-read-button"></label>
+                </div>
+            </div>
             <div class="form-action">
                 <button type="submit" class="submit-button">Add book</button>
             </div>
@@ -46,95 +53,7 @@
     </dialog>
 
     <main class="grid-container">
-        <div class="book">
-            <h1 class="title">1984</h1>
-            <p class="author">George Orwell</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status unread">Mark as Read</button>
-            </div>
-        </div>
-
-        <div class="book">
-            <h1 class="title">The Bell Jar</h1>
-            <p class="author">Sylvia Plath</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status read">Mark as Unread</button>
-            </div>
-        </div>
-
-        <div class="book">
-            <h1 class="title">To Kill a Mockingbird</h1>
-            <p class="author">Harper Lee</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status read">Mark as Unread</button>
-            </div>
-        </div>
-
-        <div class="book">
-            <h1 class="title">Pride and Prejudice</h1>
-            <p class="author">Jane Austen</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status unread">Mark as Read</button>
-            </div>
-        </div>
-
-        <div class="book">
-            <h1 class="title">The Catcher in the Rye</h1>
-            <p class="author">J.D. Salinger</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status unread">Mark as Read</button>
-            </div>
-        </div>
-
-        <div class="book">
-            <h1 class="title">Brave New World</h1>
-            <p class="author">Aldous Huxley</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status read">Mark as Unread</button>
-            </div>
-        </div>
-
-        <div class="book">
-            <h1 class="title">The Great Gatsby</h1>
-            <p class="author">F. Scott Fitzgerald</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status unread">Mark as Read</button>
-            </div>
-        </div>
-
-        <div class="book">
-            <h1 class="title">Frankenstein</h1>
-            <p class="author">Mary Shelley</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status read">Mark as Unread</button>
-            </div>
-        </div>
-
-        <div class="book">
-            <h1 class="title">Moby Dick</h1>
-            <p class="author">Herman Melville</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status unread">Mark as Read</button>
-            </div>
-        </div>
-
-        <div class="book">
-            <h1 class="title">The Picture of Dorian Gray</h1>
-            <p class="author">Oscar Wilde</p>
-            <div class="book-actions">
-                <button class="delete-book">Delete</button>
-                <button class="book-status read">Mark as Unread</button>
-            </div>
-        </div>
+        
     </main>
 
     <script src="script.js"></script>
